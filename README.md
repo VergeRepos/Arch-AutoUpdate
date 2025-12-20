@@ -1,7 +1,10 @@
 # ⚡ Arch Auto-Update Installer
 
+![GitHub Repo Size](https://img.shields.io/github/repo-size/VergeRepos/Arch-AutoUpdate?style=flat-square)
+![License](https://img.shields.io/github/license/VergeRepos/Arch-AutoUpdate?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/VergeRepos/Arch-AutoUpdate?style=flat-square)
+
 **Author:** Verge (Yohan)  
-**License:** MIT  
 **Version:** 1.2  
 
 ---
@@ -20,11 +23,10 @@
 
 ## 🚀 Installation
 
-1. Clone this repository:
+1. Clone the repository:
 
 ```bash
 git clone git@github.com:VergeRepos/Arch-AutoUpdate.git
-```
 cd Arch-AutoUpdate
 Make the installer executable:
 
@@ -36,7 +38,11 @@ Run the installer:
 bash
 Copy code
 ./install.sh
-You will be prompted for your Gmail username & app password (for notifications).
+You will be prompted for your Gmail username & app password for notifications:
+
+Username: xiannicohjaden@gmail.com
+
+App password: (your generated Gmail app password)
 
 Timeshift snapshots will be created automatically.
 
@@ -50,6 +56,6 @@ The author is not liable for any data loss, system damage, or hardware issues ca
 Always ensure backups are available before enabling auto-updates.
 
 📬 Contact
-GitHub: https://github.com/VergeRepos/Arch-AutoUpdate
+GitHub: Arch-AutoUpdate
 
 Email: xiannicohjaden@gmail.com

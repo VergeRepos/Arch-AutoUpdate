@@ -30,7 +30,7 @@
 - ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) JavaScript  
 - ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) TypeScript  
 - ![React](https://img.shields.io/badge/Library-React-61DAFB?style=flat-square&logo=react&logoColor=black) React  
-- ![Luau](https://img.shields.io/badge/Language-Luau-004080?style=flat-square&logo=data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E) Luau  
+- ![Luau](https://img.shields.io/badge/Language-Luau-004080?style=flat-square&logo=data:image/svg+xml,%3Csvg) Luau  
 - ![HTML5](https://img.shields.io/badge/Language-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) HTML  
 - ![CSS3](https://img.shields.io/badge/Language-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) CSS  
 - ![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square&logo=git&logoColor=white) Git  

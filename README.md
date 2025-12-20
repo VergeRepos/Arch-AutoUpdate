@@ -55,6 +55,7 @@ chmod +x install.sh
 ``` bash
 ./install.sh
 ```
+---
 You will be prompted for your Gmail credentials for notifications:
 
 EXAMPLE
@@ -66,7 +67,7 @@ App password: (your Gmail app password)
 Timeshift snapshots will be created automatically.
 
 The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.
-
+---
 
 ⚠️ Disclaimer
 
@@ -81,3 +82,4 @@ Always ensure backups are available before enabling auto-updates.
 GitHub: Arch-AutoUpdate
 
 Email: xiannicohjaden@gmail.com
+---

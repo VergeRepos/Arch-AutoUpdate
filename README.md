@@ -24,6 +24,7 @@
 
 ```bash
 git clone git@github.com:VergeRepos/Arch-AutoUpdate.git
+```
 cd Arch-AutoUpdate
 Make the installer executable:
 
@@ -51,4 +52,4 @@ Always ensure backups are available before enabling auto-updates.
 📬 Contact
 GitHub: https://github.com/VergeRepos/Arch-AutoUpdate
 
-Email: nybentulan@gmail.com
+Email: xiannicohjaden@gmail.com

@@ -1,4 +1,5 @@
 # ⚡ Arch Auto-Update Installer
+# HYPRLAND ONLY
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/VergeRepos/Arch-AutoUpdate?style=flat-square)
 ![License](https://img.shields.io/github/license/VergeRepos/Arch-AutoUpdate?style=flat-square)
@@ -65,3 +66,18 @@ App password: (your Gmail app password)
 Timeshift snapshots will be created automatically.
 
 The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.
+
+
+⚠️ Disclaimer
+
+This software is provided as-is. Use at your own risk.
+
+The author is not liable for any data loss, system damage, or hardware issues caused by using this software.
+
+Always ensure backups are available before enabling auto-updates.
+
+📬 Contact
+
+GitHub: Arch-AutoUpdate
+
+Email: xiannicohjaden@gmail.com

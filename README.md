@@ -1,5 +1,5 @@
 # ⚡ Arch Auto-Update Installer
-# HYPRLAND ONLY
+### **HYPRLAND ONLY**
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/VergeRepos/Arch-AutoUpdate?style=flat-square)
 ![License](https://img.shields.io/github/license/VergeRepos/Arch-AutoUpdate?style=flat-square)
@@ -37,48 +37,44 @@
 - ![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square&logo=git&logoColor=white) Git  
 
 ---
-
 ## 🚀 Setup & Installation
 
 ### 1️⃣ Clone the repository
-``` bash
+```bash
 git clone git@github.com:VergeRepos/Arch-AutoUpdate.git
 ```
-``` bash
+```bash
 cd Arch-AutoUpdate
 ```
 2️⃣ Make the installer executable
-``` bash
+```bash
 chmod +x install.sh
 ```
 3️⃣ Run the installer
-``` bash
+```bash
 ./install.sh
 ```
 ---
-## You will be prompted for your Gmail credentials for notifications:
+## 📧 Gmail Configuration
+# You will be prompted for your Gmail credentials for notifications.
 
-## EXAMPLE
+Example:
 
 Username: xiannicohjaden@gmail.com
-
 App password: (your Gmail app password)
-
 Timeshift snapshots will be created automatically.
 
 The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.
 ---
-
-⚠️ Disclaimer
-
+## ⚠️ Disclaimer
 This software is provided as-is. Use at your own risk.
 
 The author is not liable for any data loss, system damage, or hardware issues caused by using this software.
 
 Always ensure backups are available before enabling auto-updates.
+---
 
-📬 Contact
-
+## 📬 Contact
 GitHub: Arch-AutoUpdate
 
 Email: xiannicohjaden@gmail.com

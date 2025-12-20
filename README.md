@@ -61,7 +61,9 @@ chmod +x install.sh
 Example:
 
 Username: xiannicohjaden@gmail.com
+
 App password: (your Gmail app password)
+
 Timeshift snapshots will be created automatically.
 
 The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.

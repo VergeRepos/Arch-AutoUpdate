@@ -21,41 +21,44 @@
 
 ---
 
-## 🚀 Installation
+## 🖥 Technologies / Languages
 
-1. Clone the repository:
+- ![Arch Linux](https://img.shields.io/badge/OS-Arch%20Linux-blue?style=flat-square) Arch Linux  
+- ![Bash](https://img.shields.io/badge/Shell-Bash-yellow?style=flat-square) Bash  
+- ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white) Python  
+- ![Java](https://img.shields.io/badge/Language-Java-007396?style=flat-square&logo=java&logoColor=white) Java  
+- ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) JavaScript  
+- ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) TypeScript  
+- ![React](https://img.shields.io/badge/Library-React-61DAFB?style=flat-square&logo=react&logoColor=black) React  
+- ![Luau](https://img.shields.io/badge/Language-Luau-004080?style=flat-square&logo=data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E) Luau  
+- ![HTML5](https://img.shields.io/badge/Language-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) HTML  
+- ![CSS3](https://img.shields.io/badge/Language-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) CSS  
+- ![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square&logo=git&logoColor=white) Git  
+
+---
+
+## 🚀 Setup & Installation
+
+### 1️⃣ Clone the repository
 
 ```bash
 git clone git@github.com:VergeRepos/Arch-AutoUpdate.git
 cd Arch-AutoUpdate
-Make the installer executable:
-
+2️⃣ Make the installer executable
 bash
 Copy code
 chmod +x install.sh
-Run the installer:
-
+3️⃣ Run the installer
 bash
 Copy code
 ./install.sh
-You will be prompted for your Gmail username & app password for notifications:
+You will be prompted for your Gmail credentials for notifications:
 
 Username: xiannicohjaden@gmail.com
 
-App password: (your generated Gmail app password)
+App password: (your Gmail app password)
 
 Timeshift snapshots will be created automatically.
 
 The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.
 
-⚠️ Disclaimer
-This software is provided as-is. Use at your own risk.
-
-The author is not liable for any data loss, system damage, or hardware issues caused by using this software.
-
-Always ensure backups are available before enabling auto-updates.
-
-📬 Contact
-GitHub: Arch-AutoUpdate
-
-Email: xiannicohjaden@gmail.com

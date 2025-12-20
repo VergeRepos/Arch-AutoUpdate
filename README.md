@@ -36,7 +36,7 @@
 - ![CSS3](https://img.shields.io/badge/Language-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) CSS  
 - ![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square&logo=git&logoColor=white) Git  
 
----
+
 ## 🚀 Setup & Installation
 
 ### 1️⃣ Clone the repository
@@ -54,7 +54,7 @@ chmod +x install.sh
 ```bash
 ./install.sh
 ```
----
+
 ## 📧 Gmail Configuration
 # You will be prompted for your Gmail credentials for notifications.
 
@@ -65,17 +65,17 @@ App password: (your Gmail app password)
 Timeshift snapshots will be created automatically.
 
 The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.
----
+
 ## ⚠️ Disclaimer
 This software is provided as-is. Use at your own risk.
 
 The author is not liable for any data loss, system damage, or hardware issues caused by using this software.
 
 Always ensure backups are available before enabling auto-updates.
----
+
 
 ## 📬 Contact
 GitHub: Arch-AutoUpdate
 
 Email: xiannicohjaden@gmail.com
----
+

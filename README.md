@@ -56,9 +56,9 @@ chmod +x install.sh
 ./install.sh
 ```
 ---
-You will be prompted for your Gmail credentials for notifications:
+## You will be prompted for your Gmail credentials for notifications:
 
-EXAMPLE
+## EXAMPLE
 
 Username: xiannicohjaden@gmail.com
 

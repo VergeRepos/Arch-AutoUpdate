@@ -40,19 +40,23 @@
 ## 🚀 Setup & Installation
 
 ### 1️⃣ Clone the repository
-
-```bash
+``` bash
 git clone git@github.com:VergeRepos/Arch-AutoUpdate.git
+```
+``` bash
 cd Arch-AutoUpdate
+```
 2️⃣ Make the installer executable
-bash
-Copy code
+``` bash
 chmod +x install.sh
+```
 3️⃣ Run the installer
-bash
-Copy code
+``` bash
 ./install.sh
+```
 You will be prompted for your Gmail credentials for notifications:
+
+EXAMPLE
 
 Username: xiannicohjaden@gmail.com
 
@@ -61,4 +65,3 @@ App password: (your Gmail app password)
 Timeshift snapshots will be created automatically.
 
 The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.
-

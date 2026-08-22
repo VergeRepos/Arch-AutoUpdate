@@ -1,9 +1,7 @@
 # Arch Auto-Update Installer
 ### Hyprland Environment
 
-
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/VergeRepos/Arch-AutoUpdate?style=flat-square)
-![License](https://img.shields.io/github/license/VergeRepos/Arch-AutoUpdate?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/VergeRepos/Arch-AutoUpdate?style=flat-square)
 
 **Author:** Verge (Yohan)  

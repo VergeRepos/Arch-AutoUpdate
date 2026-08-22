@@ -1,5 +1,6 @@
-# ⚡ Arch Auto-Update Installer
-### **HYPRLAND ONLY**
+# Arch Auto-Update Installer
+### Hyprland Environment
+
 
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/VergeRepos/Arch-AutoUpdate?style=flat-square)
 ![License](https://img.shields.io/github/license/VergeRepos/Arch-AutoUpdate?style=flat-square)
@@ -10,74 +11,72 @@
 
 ---
 
-## 🛠 Development
+## System Overview
 
-- Fully integrated Arch Linux auto-update installer  
-- Timeshift snapshot safety before updates  
-- Gmail notifications for update status  
-- Supports top-bar widgets in HyDE, KaJoo, Waybar  
-- Toggle commands: `autoupdate-on` / `autoupdate-off`  
-- Secure permissions: scripts executable only by owner  
-- Logs located at `~/.local/log/aur-auto-update.log`  
+This utility provides automated update management for Arch Linux systems running Hyprland. It focuses on system stability and administrative control through pre-update snapshots and real-time status monitoring.
+
+### Technical Functionality
+*   **Snapshot Verification:** Automatic system restoration point creation via Timeshift prior to update execution.
+*   **Status Communication:** Integration with Gmail API to dispatch automated update reports and status notifications.
+*   **Interface Integration:** Native support for desktop status bars including HyDE, KaJoo, and Waybar.
+*   **System Controls:** Toggled management via dedicated commands (`autoupdate-on` / `autoupdate-off`).
+*   **Security Configuration:** Strict file permission schema limiting script execution privileges to the resource owner.
+*   **Operational Logging:** Persistent system logs written directly to `~/.local/log/aur-auto-update.log`.
 
 ---
 
-## 🖥 Technologies / Languages
+## Core Technologies
 
-- ![Arch Linux](https://img.shields.io/badge/OS-Arch%20Linux-blue?style=flat-square) Arch Linux  
-- ![Bash](https://img.shields.io/badge/Shell-Bash-yellow?style=flat-square) Bash  
-- ![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white) Python  
-- ![Java](https://img.shields.io/badge/Language-Java-007396?style=flat-square&logo=java&logoColor=white) Java  
-- ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) JavaScript  
-- ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) TypeScript  
-- ![React](https://img.shields.io/badge/Library-React-61DAFB?style=flat-square&logo=react&logoColor=black) React  
-- ![Luau](https://img.shields.io/badge/Language-Luau-004080?style=flat-square&logo=data:image/svg+xml,%3Csvg) Luau  
-- ![HTML5](https://img.shields.io/badge/Language-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) HTML  
-- ![CSS3](https://img.shields.io/badge/Language-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) CSS  
-- ![Git](https://img.shields.io/badge/Version%20Control-Git-F05032?style=flat-square&logo=git&logoColor=white) Git  
+*   **Operating System:** Arch Linux
+*   **Scripting Engine:** Bash, Python, Luau
+*   **Application Stack:** Java, JavaScript, TypeScript, React, HTML5, CSS3
+*   **Version Control:** Git
 
+---
 
-## 🚀 Setup & Installation
+## Installation and Deployment
 
-### 1️⃣ Clone the repository
+### 1. Repository Retrieval
 ```bash
 git clone git@github.com:VergeRepos/Arch-AutoUpdate.git
-```
-```bash
 cd Arch-AutoUpdate
 ```
-2️⃣ Make the installer executable
+
+### 2. Permissions Initialization
 ```bash
 chmod +x install.sh
 ```
-3️⃣ Run the installer
+
+### 3. Execution
 ```bash
 ./install.sh
 ```
 
-## 📧 Gmail Configuration
-# You will be prompted for your Gmail credentials for notifications.
+---
 
-Example:
+## Configuration and Integration
 
+### Notification Services
+The installation routine requires authentication details to establish communication with the Gmail SMTP relay server:
+
+```text
 Username: xiannicohjaden@gmail.com
+App Password: [Secure Application Password]
+```
 
-App password: (your Gmail app password)
+### Automation Details
+*   **Backup Mechanics:** Timeshift state capture initializes automatically prior to package synchronization.
+*   **Interface Detection:** The installer scans for active HyDE, KaJoo, or Waybar environments to inject the update monitoring widget.
 
-Timeshift snapshots will be created automatically.
+---
 
-The installer will detect your desktop bar (HyDE/KaJoo/Waybar) and configure the auto-update widget automatically.
+## Disclaimer
 
-## ⚠️ Disclaimer
-This software is provided as-is. Use at your own risk.
+This software is distributed without warranties of any kind. The user assumes all operational risks associated with automated package management. The author maintains no liability for data modification, system instability, or hardware irregularities arising from the application of these tools. Regular validation of system backups remains the responsibility of the system administrator.
 
-The author is not liable for any data loss, system damage, or hardware issues caused by using this software.
+---
 
-Always ensure backups are available before enabling auto-updates.
+## Contact
 
-
-## 📬 Contact
-GitHub: Arch-AutoUpdate
-
-Email: xiannicohjaden@gmail.com
-
+*   **Repository:** VergeRepos/Arch-AutoUpdate
+*   **Support:** xiannicohjaden@gmail.com
